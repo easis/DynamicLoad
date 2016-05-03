@@ -4,7 +4,6 @@
 #define WIN32_LEAN_AND_MEAN
 #include <windows.h>
 
-//#define ROR32(x,n) ( (x)>>(n) | ((x) & UINT32_MASK) << (32-(n)))
 typedef unsigned int(__stdcall *FunPtr_LoadLibrary)(LPCSTR);
 class DynamicLoad {
 private:
